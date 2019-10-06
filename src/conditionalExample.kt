@@ -17,4 +17,19 @@ fun main() {
     }
 
     println("The capital is $capital")
+
+    when(state){
+        "CA", "OR", "WA" -> println("West Coast")
+        "NH", "VT", "MA" -> println("New England")
+        else -> println("Somewhere else")
+    }
+
+    when(50){
+        in 1.. 35 -> println("Not yet")
+        in 40.. 45 -> println("Close enough")
+        else -> {
+            println("Definitely not")
+            println("No, not really")
+        }
+    }
 }
