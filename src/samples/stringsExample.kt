@@ -1,5 +1,3 @@
-import java.lang.StringBuilder
-
 fun main() {
     var myString = "Hello!"
     println(myString)
