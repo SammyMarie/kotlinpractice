@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     val colors: Array<String> = arrayOf("Red", "Green", "Blue")
     val values: IntArray = intArrayOf(1, 3, 5, 7, 9)

@@ -1,3 +1,5 @@
+package samples
+
 import kotlin.math.abs
 import kotlin.math.round
 

@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     val num1 = 25
     var num2 = 10

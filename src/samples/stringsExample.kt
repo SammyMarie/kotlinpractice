@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     var myString = "Hello!"
     println(myString)
@@ -27,8 +29,8 @@ fun main() {
     println("Do they match? $match")
 
     val builder = StringBuilder("To be or not to be\n").append("That is a very good question\n")
-                                                           .append("Whether 'tis nobler in the mind\n")
-                                                           .append("To suffer the slings and arrows")
+        .append("Whether 'tis nobler in the mind\n")
+        .append("To suffer the slings and arrows")
 
     val result = builder.toString()
     println(result)

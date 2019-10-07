@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     val firstNumber = 12.0
     val secondNumber = 34.5

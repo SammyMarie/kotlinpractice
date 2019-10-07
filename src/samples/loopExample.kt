@@ -1,3 +1,5 @@
+import samples.printHeader
+
 fun main() {
     val states: Array<String> = arrayOf("CA", "OR", "WA")
 

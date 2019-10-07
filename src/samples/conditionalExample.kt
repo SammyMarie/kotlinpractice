@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     print("Enter a state abbreviation: ")
     val state : String? = readLine()

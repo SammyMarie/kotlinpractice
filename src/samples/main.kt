@@ -1,8 +1,10 @@
+package samples
+
 const val myName = "Sammy"
 
 fun main() {
     val person = Person(myName)
-    println("The initial value of Person object is $person")
+    println("The initial value of samples.Person object is $person")
 
     val num2: Double = 5.toDouble()
     println("The value of num2 is $num2")

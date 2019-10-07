@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     var nullValue: String? = null
     println("Value is: $nullValue")

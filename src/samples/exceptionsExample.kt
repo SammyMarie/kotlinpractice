@@ -1,3 +1,5 @@
+package samples
+
 fun main() {
     try {
         print("Value 1: ")
