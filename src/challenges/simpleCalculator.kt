@@ -1,5 +1,7 @@
 package challenges
 
+import challenges.Operation.*
+
 fun main() {
     print("Enter first value: ")
     val firstNumber: String? = readLine()
@@ -31,11 +33,11 @@ fun printHeader(label: String) {
 
 fun calculateValues(first: Double, second: Double, operator: String?): Double {
     return when (operator) {
-        "+" -> first.plus(second)
-        "-" -> first.minus(second)
-        "/" -> first.div(second)
-        "*" -> first.times(second)
-        "%" -> first.rem(second)
+        ADD.operator -> first.plus(second)
+        SUBTRACT.operator -> first.minus(second)
+        DIVIDE.operator -> first.div(second)
+        MULTIPLY.operator -> first.times(second)
+        MODULUS.operator -> first.rem(second)
         else -> throw Exception("Unknown Operator")
     }
 }
