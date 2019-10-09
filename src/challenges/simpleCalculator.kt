@@ -1,6 +1,10 @@
 package challenges
 
-import challenges.Operation.*
+import challenges.Operation.ADD
+import challenges.Operation.DIVIDE
+import challenges.Operation.MODULUS
+import challenges.Operation.MULTIPLY
+import challenges.Operation.SUBTRACT
 
 fun main() {
     print("Enter first value: ")
