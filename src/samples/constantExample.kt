@@ -1,6 +1,6 @@
 package samples
 
-import samples.Constants.Companion.RED
+import samples.model.Constants.Companion.RED
 
 fun main() {
     println(" the color is $RED")

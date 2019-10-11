@@ -1,4 +1,4 @@
-package samples
+package samples.model
 
 data class Employee(private val firstName: String, private val lastName: String) {
     val fullName: String

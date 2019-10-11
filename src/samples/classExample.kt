@@ -1,6 +1,7 @@
 package samples
 
-import samples.MathLib.Companion.receiveInput
+import samples.model.MathLib
+import samples.model.MathLib.Companion.receiveInput
 
 fun main() {
     try {

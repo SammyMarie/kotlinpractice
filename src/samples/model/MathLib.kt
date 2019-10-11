@@ -1,4 +1,4 @@
-package samples
+package samples.model
 
 class MathLib {
     var runningTotal = 0.0
