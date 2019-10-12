@@ -1,7 +1,7 @@
 package samples
 
 fun main() {
-    val something: Any = Any()
+    val something = Any()
     println(something)
 
     val sup = SuperClass(42)
