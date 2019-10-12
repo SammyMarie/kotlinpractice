@@ -15,12 +15,8 @@ open class SuperClass(anInt: Int) {
     protected val _anInt = anInt
 
     override fun toString(): String {
-        return "SuperClass{anInt: $_anInt}"
+        return "${this::class.simpleName} {anInt: $_anInt}"
     }
 }
 
-class SubClass(anInt: Int) : SuperClass(anInt) {
-    override fun toString(): String {
-        return "Subclass{anInt: $_anInt}"
-    }
-}
+class SubClass(anInt: Int) : SuperClass(anInt)
